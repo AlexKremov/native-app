@@ -1,7 +1,7 @@
 import { StatusBar } from 'expo-status-bar';
 import { useState } from 'react';
 import { StyleSheet, View, ScrollView, Alert } from 'react-native';
-import * as Font from 'expo-font'
+import * as Font from 'expo-font';
 import AppLoading from 'expo-app-loading';
 
 import { Navbar } from './src/components/Navbar';
@@ -21,7 +21,7 @@ async function loadApplication() {
 export default function App() {
   const [isReady, setIsReady] = useState(false)
   const [todos, setTodos] = useState([
-    { id: 1, title: "Перший план" },
+    { id: 1, title: "ППункт первый" },
   ])
   const [todoId, setTodoId] = useState(null)
 
